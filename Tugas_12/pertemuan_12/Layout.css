@@ -1,0 +1,50 @@
+.body{
+    margin: 0px;
+}
+.header{
+    background-color: #c7c2c2;
+    padding:20px;
+    text-align:center;
+}
+.topnav{
+    overflow: hidden;
+    background-color:#333;
+}
+.topnav a {
+    float: left;
+    display:block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+}
+.topnav a:hover{
+    background-color: #c42525;
+    color: black;
+}
+.colomn{
+    float: left;
+    padding : 10px;
+}
+.colomn.side{
+    width:25%;
+}
+.colomn.middle{
+    width:50%;
+}
+.row::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width:600px)
+{
+    .colomn.side, .colomn.middle{
+        width: 100%;
+    }
+}
+.footer{
+    background-color:#7a6a6a;
+    padding:10px;
+    text-align: center;
+}
