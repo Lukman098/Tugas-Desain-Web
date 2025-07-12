@@ -1,0 +1,39 @@
+.translate{
+    width:240px;
+    height:60px;
+    background-color: tomato;
+    border:2px solid black;
+    transform: translate(100px,100px,)
+}
+.rotate{
+    width: 240px;
+    height:60px;
+    background-color: yellow;
+    border:2px solid black;
+    transform: rotate(-20deg);
+}
+
+.lukman {
+    padding: 100px;;
+}
+.scale{
+    width: 240px;
+    height:60px;
+    background-color: yellow;
+    border:2px solid black;
+    transform: scale(0.6,0.5);
+}
+.skewX{
+    width: 240px;
+    height:60px;
+    background-color: yellow;
+    border:2px solid black;
+    transform: skewY(20deg)
+}
+.matrik{
+    width: 240px;
+    height:60px;
+    background-color: yellow;
+    border:2px solid black;
+    transform: matrix(1, -0.3, 0, 1, 0, 0)
+}

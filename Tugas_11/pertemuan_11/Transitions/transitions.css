@@ -1,0 +1,111 @@
+.transition{
+    width:100px;
+    height:100px;
+    background:blue;
+    transition: width 2s,height 2s;
+    transform: translate(100px);
+}
+.transition:hover {
+  width: 200px;
+  height: 200px;
+}
+.div1{
+    width:100px;
+    height:100px;
+    background:rgb(83, 151, 190);
+    transition:width 2s;
+    transition-timing-function:linear;
+    transform:translate(100px);
+}
+.div2{
+    width:100px;
+    height:100px;
+    background:rgb(83, 151, 190);
+    transition:width 2s;
+    transition-timing-function:ease;
+    transform:translate(100px);
+
+}
+.div3{
+    width:100px;
+    height:100px;
+    background:rgb(83, 151, 190);
+    transition:width 2s;
+    transition-timing-function:ease-in;
+    transform:translate(100px);
+}
+.div4{
+    width:100px;
+    height:100px;
+    background:rgb(83, 151, 190);
+    transition:width 2s;
+    transition-timing-function:ease-out;
+    transform:translate(100px);
+}
+.div5{
+    width:100px;
+    height:100px;
+    background:rgb(83, 151, 190);
+    transition:width 2s;
+    transition-timing-function:ease-in-out;
+    transform:translate(100px);
+}
+.div6{
+    width:100px;
+    height:100px;
+    background:rgb(83, 151, 190);
+    transition: width 2s;
+    transition-delay:2s;
+    transform:translate(100px);
+}
+.div7{
+    width:100px;
+    height:100px;
+    background:rgb(83, 151, 190);
+    transition:width 2s,height 2s,transform 2s;;
+    transform:translate(100px);
+}
+.div8{
+    width: 290px;
+    height: 25px;
+    background: red;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+.div9{
+    width:100px;
+    height:100px;
+    background:red;
+    transition: width 2s linear 1s;
+}
+.div1:hover{
+    width:200px
+}
+.div2:hover{
+    width:200px
+}
+.div3:hover{
+    width:200px
+}
+.div4:hover{
+    width:200px
+}
+.div5:hover{
+    width:200px
+}
+.div6:hover{
+    width:200px;
+}
+.div7:hover{
+    width:290px;
+    height:290px;
+    transform: rotate(180deg);
+}
+.div8:hover{
+    width:600px;
+}
+.div9:hover{
+    width: 300px;
+}

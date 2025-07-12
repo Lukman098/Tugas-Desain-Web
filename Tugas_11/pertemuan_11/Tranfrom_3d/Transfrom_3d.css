@@ -1,0 +1,21 @@
+.rotateX{
+    width:220px;
+    height: 60px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    transform: rotateX(150deg);
+}
+.rotateY{
+    width:220px;
+    height: 60px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    transform: rotateY(150deg);
+}
+.rotateZ{
+    width:220px;
+    height: 60px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    transform: rotateZ(90deg);
+}

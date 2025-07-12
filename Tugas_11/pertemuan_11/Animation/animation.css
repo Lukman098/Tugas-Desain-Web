@@ -1,0 +1,11 @@
+.keyframes{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name : example;
+    animation-duration: 4s;
+}
+@keyrames example{
+    from{background-color:blue;}
+    to{background-color:green;}
+}
