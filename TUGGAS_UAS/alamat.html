@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alamat - Lukmanul Hakim</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="logo">Lukman.</div>
+        <button class="menu-toggle" onclick="toggleMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+        </button>
+      <nav>
+        <ul>
+          <li><a href="projek_aku.html">Beranda</a></li>
+          <li><a href="kisah.html">Kisah</a></li>
+          <li><a href="alamat.html" class="active">Alamat</a></li>
+          <li><a href="tentang.html">Tentang</a></li>
+          <li><a href="riwayat.html">Riwayat</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="alamat-hero">
+      <div class="container">
+        <h1>Alamat Saya</h1>
+        <p>Tempat tinggal dan informasi kontak pribadi.</p>
+      </div>
+    </section>
+
+    <section class="alamat-content">
+      <div class="container">
+        <div class="alamat-block">
+          <h3>Alamat Rumah</h3>
+          <p>Dusun Krajan, Desa Bengkak, Kecamatan Wongsorejo, Kabupaten Banyuwangi, Jawa Timur, Indonesia.</p>
+        </div>
+        <div class="alamat-block">
+          <h3>Email</h3>
+          <p>fank8192@gmail.com</p>
+        </div>
+        <div class="alamat-block">
+          <h3>Nomor Telepon</h3>
+          <p>085730392845</p>
+        </div>
+        <div class="alamat-block">
+          <h3>Maps</h3>
+          <p><a href="https://www.google.com/maps" target="_blank">Lihat di Google Maps</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-left">
+        <h2>Portofolio Lukman</h2>
+        <p>Desainer Web & Pengembang Frontend</p>
+      </div>
+      <div class="footer-center"></div>
+      <div class="footer-right">
+        <h3>Ikuti Saya</h3>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png"
+              alt="Facebook"></a>
+          <a href="https://www.instagram.com/"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png"
+              alt="Instagram"></a>
+          <a href="https://x.com/lukman0318"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png"
+              alt="GitHub"></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Lukman. All rights reserved.</p>
+    </div>
+  </footer>
+  <script>
+    function toggleMenu() {const nav = document.querySelector('nav'); nav.classList.toggle('active');}
+  </script>
+</body> 
+</html>
