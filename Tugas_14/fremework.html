@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Lukmanul Hakim</title>
+  <link rel="stylesheet" href="fremework.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">Lukmanul Hakim</h1>
+      <nav id="navbar">
+        <ul class="nav-links" id="menu">
+          <li><a href="#">Beranda</a></li>
+          <li><a href="#">Kisah</a></li>
+          <li><a href="#">Riwayat</a></li>
+          <li><a href="#">Alamat</a></li>
+          <li><a href="#">Tentang</a></li>
+        </ul>
+        <div class="menu-toggle" id="toggle">&#9776;</div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Selamat datang di portofolioku!</h2>
+      <p>Inilah kisah dan karyaku dalam dunia digital.</p>
+    </div>
+  </section>
+
+  <section class="content">
+    <div class="container">
+      <h3>Skill & Proyek</h3>
+      <p>Desain Web, Frontend Developer, UI/UX, dan lainnya.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Lukmanul Hakim. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('toggle');
+    const menu = document.getElementById('menu');
+
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
